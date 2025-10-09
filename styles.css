@@ -302,7 +302,7 @@
         .submit-btn {
             width: 100%;
             padding: 14px;
-            background-color: #4a90e2;
+            background-color: #315479;
             border: none;
             border-radius: 8px;
             color: white;
@@ -314,7 +314,7 @@
         }
 
         .submit-btn:hover {
-            background-color: #357ab8;
+            background-color: #03213b;
         }
 
         #form-message {
@@ -333,4 +333,22 @@
         #form-message.error {
             background: #FADBD8;
             color: #E74C3C;
+        }
+        .googlesheets-btn{
+               width: 100%;
+            padding: 14px;
+            background-color: #315479;
+            border: none;
+            border-radius: 8px;
+            color: white;
+            font-weight: 700;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin-top: 10px;
+
+        }
+        .googlesheets-btn:hover{
+             background-color: #03213b;
+
         }
